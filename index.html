@@ -1,80 +1,190 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="website.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about-me">
-        <div class="about-me">
-          <h1>About Me</h1>
-          <img src="santhosh final.jpg" alt="Profile Picture">
-          <p>I am an aspiring Chemical Engineer who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering.</p>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
 
-            <p>My passion lies in solving complex problems and communicating complex ideas to non-technical stakeholders. I can jump across verticals to deliver high-performing solutions.</p>
-            
-            
-            <p>In my graduate studies, I’ve taken on various leadership roles, including coordinating one of the biggest TechFest events - Shaastra 2023, conducted by IIT MADRAS.</p>
-            
-            <p>I'm graduating in 2025, and I'm interested in full-time chemical engineering core roles.            </p>
-        </div>
-      </section>
-      <section id="skills">
-        <div class="skills">
-          <h1>Skills</h1>
-          <ul>
-            <li>Python</li>
-            <li>Machine Learning</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Soft Skills</li>
-            <li>Event Coordination</li>
-          </ul>
-        </div>
-      </section>
-    
-      <section class="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <ul>
-            <li>This is the first project that I am doing in web development and I feel exciting</li>
-        </ul>
+<body>
+<!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo">Santhosh <span> B A</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+</header>
+<!-- Navbar Section End -->
+<!-- Home Section Start -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://github.com/santocoder"><i class='bx bxl-github'></i></a>
+        <a href="https://instagram.com/sandy_ba_04?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram'></i></a>
     </div>
-    </section>
-    
-      <section id="contact">
-        <div class="contact">
-          <h1>Contact</h1>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
-    
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea><br>
-    
-            <input type="submit" value="Submit">
-          </form>
+    <div class="home-img">
+        <img src="./santhosh final.jpg" alt="">
+    </div>
+    <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Santhosh B A</h1>
+        <h2>Second Year Chemical Engineering Undergraduate</h2>
+        <p>I am an aspiring Chemical Engineer who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering.<br> My passion lies in solving complex problems and communicating complex ideas to non-technical stakeholders. I can jump across verticals to deliver high-performing solutions.
+
+          <br> In my graduate studies, I have taken on various leadership roles, including coordinating one of the biggest TechFest events - Shaastra 2023, conducted by IIT MADRAS. I'm graduating in 2025, and I'm interested in full-time chemical engineering core roles.
+
+        </p>
+        <a href="#contact" class="btn">Download CV</a>
+    </div>
+</section>
+<!-- Home Section End -->
+<!-- About Section Start -->
+
+<section class="about" id="about">
+    <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+        <div class="about-img">
+            <img src="./santhosh final.jpg" alt="">
         </div>
-      </section>
-    </main>
-    
-    <footer>
-      <p>&copy; Santhosh B A, contact me through my e-mail ch21b091@smail.iitm.ac.in.</p>
-    </footer>
-    </body>
-</html>     
+        <div class="about-text">
+            <p>I am an aspiring Chemical Engineer who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering.</p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>Santhosh B A</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>+91 99406 65086</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>ch21b091@smail.iitm.ac.in</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Download Cv</a>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Skills Section Start -->
+
+<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+        <span>My Skills</span>
+    </div>
+
+    <div class="skills-container">
+        <div class="bars">
+
+            <div class="bars-box">
+                <h3>HTML</h3>
+                <span>60%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar html-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>CSS</h3>
+                <span>60%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar css-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>Machine Learning</h3>
+                <span>75%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar js-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>Matlab</h3>
+                <span>80%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar react-bar"></div>
+            </div>
+        </div>
+        <div class="skills-img">
+            <img src="./santhosh final.jpg" alt="Skill">
+        </div>
+    </div>
+</section>
+<!-- Skills Section End -->
+<!-- Services Section Start -->
+<section class="services" id="services">
+    <div class="heading">
+        <h2>Projects</h2>
+        <span>My Projects</span>
+    </div>
+    <div class="services-content">
+
+        <div class="services-box">
+            <h3>Profile Website</h3>
+            <a href="https://santocoder.github.io/homepage-santhoshba/">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <h3>Google Homepage Clone</h3>
+            <a href="https://santocoder.github.io/chrome-clone-for-app/">Learn More</a>
+        </div>
+        <div class="services-box">
+            <h3>More to come</h3>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Connect With Me</span>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="text" placeholder="Your Name">
+            <input type="email" name="" id="" placeholder="Your Email">
+            <textare name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textare>
+                                <input type="button" value="Send" class="contact-button">
+                                </form>
+                            </div>
+                            </section>
+                            <!-- Contact Section End -->
+                         <div class="footer">
+                                <h2>Follow Me</h2>
+                                <div class="footer-social">
+                                    <a href="https://instagram.com/sandy_ba_04?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram'></i></a>
+                                </div>
+
+                            </div>
+
+                            <div class="copyright">
+                                © All Right Reserved.</p>
+                            </div>
+                            <!-- Javascript -->
+                            <script src="script.js"></script>
+</body>
+
+</html>
